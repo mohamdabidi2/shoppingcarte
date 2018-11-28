@@ -1,0 +1,72 @@
+body{
+    background: rgb(125, 243, 125);
+}
+.carte{
+    background: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.groza-info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgb(231, 231, 231) 1px solid;
+    border-top: rgb(231, 231, 231) 1px solid;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.guns-img{
+    width: 300px;
+    height: 135px;
+}
+.m4a1-info{
+    display: flex;
+    justify-content: space-between;  
+    border-bottom: rgb(231, 231, 231) 1px solid;
+}
+.sks-info{
+    display: flex;
+    justify-content: space-between;
+     
+}
+.heart-color:active{color: red}
+.btn-s{
+    background-color: #E1E8EE;
+    border-radius: 2px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin-left:5px;
+    margin-right:5px;
+    font-size: 16px;
+    text-align: center;
+}
+.cas{margin-top: 50px;
+padding-left: 10px}
+.fav{
+    margin-top:50px; 
+}
+div.btn.fav{margin: 0}
+div.sks{
+    margin-top:20px; 
+}
+div.groza{
+    margin-top:20px; 
+}
+div.m4a1{
+    margin-top:20px; 
+}
+a{text-decoration: none;
+color: gray;
+font-size: 25px}
+.heart-color{
+    color: red;
+}
